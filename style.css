@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    margin: 0px;
+}
+
+.principal{
+    background-image: url(img/notebook.png);
+    height: 500px;
+    background-size: cover;
+    border-top: 1px solid transparent;
+    background-position: right center;
+}
+.text-content{
+    text-align: center;
+    color: rgba(32, 32, 32, 0.8);
+    font-size: 40px;
+    text-shadow: -2px 0px rgba(255, 255, 255, 0.2);
+}
+
+.box-text{
+    margin-top: 100px;
+}
+
+.text-start{
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
+main{
+    margin: auto;
+    width: 80%;
+}
+
+.content-section{
+    background-color: white;
+    margin-top: 10px;
+    padding: 2px 25px;
+}
+
+.title{
+    background-color: #ccc;
+    padding: 15px;
+    display: inline-block;
+    width: 95%;
+    border-bottom: 3px solid rgba(128, 128, 128, 0.3);
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+.description{
+    background-color: #ccc;
+    padding: 9px;
+    margin-top: 0px;
+}
+
+footer{
+    text-align: center;
+}
+
+.list-place{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    margin-right: 100px;
+    text-decoration: none;
+
+}
+
+li{
+    text-decoration:none;
+    list-style-type:none;
+    margin-top: 35px;
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.1);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.description1{
+    background-color: rgba(128, 128, 128, 0.2);
+    padding: 15px;
+    border-bottom: 3px solid black;
+}
+
+li a:hover{
+    background-color: rgba(128, 128, 128, 1);
+    color: white;
+}
+
+.card img{
+    margin-top: 10px;
+    height: 135px;
+}
+
+.card{
+    color: black;
+    font-weight:200;
+    font-size: 20px;
+    text-align: center;
+}
